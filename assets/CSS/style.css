@@ -1,0 +1,37 @@
+:root{
+  font-size: 18px;
+  font-family: georgia,serif;
+}
+body{
+  margin: 0;
+}
+.main-header{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 380px;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #262626;
+  color:white;
+}
+.logo-header {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu-list,
+.button-contact{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.list {
+  display: inline-block;
+  padding: 0 5px;
+}
+.button-contact {
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
