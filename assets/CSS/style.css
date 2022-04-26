@@ -44,3 +44,6 @@ body{
   border-radius: 5px;
   font-size: 0.7rem;
 }
+.button-contact:hover{
+  background-color:grey;
+}
